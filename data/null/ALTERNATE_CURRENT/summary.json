@@ -1,0 +1,26 @@
+{
+  "power_on": {
+    "samples": 100,
+    "average": 84.0,
+    "max": 440,
+    "min": 60,
+    "sum": 8400,
+    "average95": 79.6,
+    "max95": 120,
+    "min95": 60,
+    "sum95": 7960,
+    "stddev": 38.961519477556315
+  },
+  "power_off": {
+    "samples": 100,
+    "average": 80.8,
+    "max": 140,
+    "min": 60,
+    "sum": 8080,
+    "average95": 79.4,
+    "max95": 110,
+    "min95": 60,
+    "sum95": 7940,
+    "stddev": 14.675149062275313
+  }
+}
