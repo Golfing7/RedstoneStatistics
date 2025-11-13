@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18282f38-5285-4455-ba38-a6bd66c9b477" name="Changes" comment="Update test used" />
+    <list default="true" id="18282f38-5285-4455-ba38-a6bd66c9b477" name="Changes" comment="Add flood data">
+      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/flood_3d/ALTERNATE_CURRENT/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/flood_3d/ALTERNATE_CURRENT/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/flood_3d/EIGENCRAFT/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/flood_3d/EIGENCRAFT/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/flood_3d/VANILLA/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/flood_3d/VANILLA/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/line/ALTERNATE_CURRENT/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/line/ALTERNATE_CURRENT/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/line/EIGENCRAFT/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/line/EIGENCRAFT/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/line/VANILLA/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/line/VANILLA/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/null/ALTERNATE_CURRENT/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/null/ALTERNATE_CURRENT/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/null/EIGENCRAFT/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/null/EIGENCRAFT/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/null/VANILLA/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/null/VANILLA/summary.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,33 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.analysis.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/andrew/PycharmProjects/RedstoneStatistics/data/flood/VANILLA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.analysis.executor": "Run",
+    "Python.data.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/andrewbowie/PycharmProjects/RedstoneStatistics/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/flood/VANILLA" />
       <recent name="$PROJECT_DIR$/data/flood/EIGENCRAFT" />
       <recent name="$PROJECT_DIR$/data/flood/ALTERNATE_CURRENT" />
-      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.analysis">
     <configuration name="analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RedstoneStatistics" />
       <option name="ENV_FILES" value="" />
@@ -78,9 +101,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RedstoneStatistics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.analysis" />
+        <item itemvalue="Python.data" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763066936945</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add flood data">
+      <option name="closed" value="true" />
+      <created>1763074126786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763074126786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +192,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start of statistical analysis" />
     <MESSAGE value="Update test used" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update test used" />
+    <MESSAGE value="Add flood data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add flood data" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RedstoneStatistics$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1762206060250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
