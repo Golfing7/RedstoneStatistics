@@ -4,28 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18282f38-5285-4455-ba38-a6bd66c9b477" name="Changes" comment="Add flood data">
-      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+    <list default="true" id="18282f38-5285-4455-ba38-a6bd66c9b477" name="Changes" comment="Change analysis to full flood">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/flood_3d/ALTERNATE_CURRENT/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/flood_3d/ALTERNATE_CURRENT/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/flood_3d/EIGENCRAFT/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/flood_3d/EIGENCRAFT/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/flood_3d/VANILLA/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/flood_3d/VANILLA/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/line/ALTERNATE_CURRENT/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/line/ALTERNATE_CURRENT/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/line/EIGENCRAFT/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/line/EIGENCRAFT/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/line/VANILLA/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/line/VANILLA/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/null/ALTERNATE_CURRENT/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/null/ALTERNATE_CURRENT/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/null/EIGENCRAFT/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/null/EIGENCRAFT/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/null/VANILLA/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/null/VANILLA/summary.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763074126786</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change analysis to full flood">
+      <option name="closed" value="true" />
+      <created>1763076018941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763076018941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +182,8 @@
     <MESSAGE value="Start of statistical analysis" />
     <MESSAGE value="Update test used" />
     <MESSAGE value="Add flood data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add flood data" />
+    <MESSAGE value="Change analysis to full flood" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change analysis to full flood" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
