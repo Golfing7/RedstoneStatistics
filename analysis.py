@@ -79,7 +79,7 @@ def analyze_algorithm_friedman(experiments):
 
 def main():
     analyze_algorithm_friedman([f"{experiment_use}_{i}" for i in range(1, 15)])
-    # analyze_algorithm_wilcoxon([f"{experiment_use}_{i}" for i in range(1, 15)])
+    analyze_algorithm_wilcoxon([f"{experiment_use}_{i}" for i in range(1, 15)])
 
 
 if __name__ == "__main__":
